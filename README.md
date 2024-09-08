@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi there 👋🏼
 
-<!--
-**tr1n/tr1n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```typescript
 
-Here are some ideas to get you started:
+class tr1n {
+  name : string
+  email : string
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  constructor() {
+    this.name = "Patryk Świech"
+    this.email = "hello@tr1n.me"
+  };
+
+  experience() {
+    return {
+        '2016-2022': 'Small websites and web apps.',
+        '2021': 'Create popular site called kurwa.tr1n.me',
+        '2022-now': 'Focused on own and side projects.'
+    }
+  };
+
+  skills() {
+    return [
+        'HTML', 'CSS', 'SCSS (SASS)', 'TAILWIND CSS', 'JAVASCRIPT', 
+        'TYPESCRIPT', 'PYTHON', 'JAVA', 'NODE.JS', 'NPM/YARN', 
+        'GIT', 'MySQL', 'MONGODB', 'POSTGRES', 'DOCKER', 
+        'LINUX SERVERS', 'WINDOWS SERVERS' 
+    ]
+  };
+
+  projects() {
+  return [
+        'digitalbuzz.pro', 'musebot.pro', 'advicebot.info', 'topbots.pl', 'kurwa.tr1n.me'
+  ]
+  };
+}
+
+``````
