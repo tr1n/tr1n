@@ -30,7 +30,7 @@ class tr1n {
 
   projects() {
   return [
-        'digitalbuzz.pro', 'musebot.pro', 'advicebot.info', 'topbots.pl', 'kurwa.tr1n.me'
+        'musebot.pro', 'advicebot.info', 'topbots.pl'
   ]
   };
 }
